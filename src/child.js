@@ -42,7 +42,9 @@ const getExpense = () => {
 return (
     <div className = "container">
         <h1 className = "text-center">Expense Tracker</h1>
-        <h3>Your Balance <br /> {getIncome() + getExpense()}</h3>
+        <h2 className = "text-center">PIAC Boot Camp 2020 </h2>
+        <h2 className = "text-center">Student Muhammad Javaid</h2>
+        <h3>Your Balance <br /> ${getIncome() + getExpense()}</h3>
         <div className = "expense-container">
             <h3 >INCOME <br /> ${getIncome()}</h3>
             <h3>EXPENSE <br /> ${getExpense()}</h3>
